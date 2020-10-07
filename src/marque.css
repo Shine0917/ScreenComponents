@@ -1,0 +1,23 @@
+@keyframes marqueScroll {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marque-box {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.marque-item {
+  display: inline-block;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.marque-animate {
+  animation: 10s marqueScroll linear infinite normal;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
