@@ -1,0 +1,22 @@
+{
+  "presets": ["react-app"],
+  "plugins": [
+    // antd按需加载配置
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+
+        "style": "css"
+      }
+    ]
+    // styled配置
+    // [
+    //   "babel-plugin-styled-components",
+    //   {
+    //     "fileName": false
+    //   }
+    // ]
+  ]
+}
